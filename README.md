@@ -211,19 +211,9 @@ npm run dev
 
 ---
 
-## 👥 Team
-
-| Name | 
-
-| [naina] | 
-| [utkarsh] | 
-| [reyhan] | 
-| [daksh] | 
-| [shourya] | 
-| [sunidhi] | 
 ---
 
 
 <div align="center">
-Built with ❤️ for CCS's Intra-Society Hackathon
+
 </div>
