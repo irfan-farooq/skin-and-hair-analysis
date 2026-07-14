@@ -1,0 +1,130 @@
+.acne-card {
+  background: white;
+
+  border-radius: 28px;
+
+  padding: 32px;
+
+  margin-top: 24px;
+
+  box-shadow: 0 4px 15px rgba(0,0,0,0.04);
+}
+
+.section-title {
+  font-size: 12px;
+
+  letter-spacing: 2px;
+
+  color: #888;
+
+  margin-bottom: 24px;
+
+  font-weight: 600;
+}
+
+.zones-grid {
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+
+  gap: 14px;
+}
+
+.zone-card {
+  border-radius: 20px;
+
+  padding: 18px;
+
+  min-height: 120px;
+
+  border: 1.5px solid #eee;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.zone-card h3 {
+  font-size: 16px;
+
+  margin-bottom: 12px;
+
+  color: #222;
+}
+
+.zone-card p {
+  color: #666;
+
+  font-size: 14px;
+
+  margin-bottom: auto;
+}
+
+.zone-card button {
+  border: none;
+
+  padding: 10px 14px;
+
+  border-radius: 999px;
+
+  font-weight: 600;
+
+  width: fit-content;
+
+  cursor: pointer;
+}
+
+/* Yellow */
+
+.zone-card.yellow {
+  border-color: #e6d38c;
+}
+
+.zone-card.yellow button {
+  background: #f7efc9;
+  color: #8d6b00;
+}
+
+/* Red */
+
+.zone-card.red {
+  border-color: #efb5b5;
+}
+
+.zone-card.red button {
+  background: #fde3e3;
+  color: #c94444;
+}
+
+/* Blue */
+
+.zone-card.blue {
+  border-color: #b7d7f5;
+}
+
+.zone-card.blue button {
+  background: #e6f2ff;
+  color: #3f79c6;
+}
+
+/* Green */
+
+.zone-card.green {
+  border-color: #c8e7c7;
+}
+
+.zone-card.green button {
+  background: #edf8ed;
+  color: #4e9b53;
+}
+
+@media (max-width: 1000px) {
+  .zones-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .zones-grid {
+    grid-template-columns: 1fr;
+  }
+}

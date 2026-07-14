@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&display=swap');
+
+.hero-section{
+  position:relative;
+  height:100vh;
+  width:100%;
+  background-size:cover;
+  background-position:center;
+  overflow:hidden;
+}
+
+.hero-overlay{
+  position:absolute;
+  inset:0;
+  background:rgba(0,0,0,.35);
+}
+
+.hero-logo{
+  position:absolute;
+  top:30px;
+  left:50%;
+  transform:translateX(-50%);
+  z-index:10;
+}
+
+.hero-logo h1{
+  color:white;
+  font-family:'Cormorant Garamond', serif;
+  letter-spacing:4px;
+  font-size:1.3rem;
+}
+
+.hero-content{
+  position:relative;
+  z-index:10;
+  height:100%;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  padding:20px;
+}
+
+.hero-title{
+  font-family:'Cormorant Garamond', serif;
+  color:white;
+  font-weight:300;
+  line-height:.9;
+  font-size:clamp(5rem,11vw,10rem);
+}
+
+.hero-subtitle{
+  color:white;
+  margin-top:30px;
+  font-size:1.4rem;
+}
+
+.hero-btn{
+  margin-top:40px;
+  padding:18px 60px;
+  border-radius:999px;
+  border:1px solid white;
+  background:transparent;
+  color:white;
+  cursor:pointer;
+  font-weight:600;
+  transition:.3s;
+}
+
+.hero-btn:hover{
+  background:white;
+  color:black;
+}

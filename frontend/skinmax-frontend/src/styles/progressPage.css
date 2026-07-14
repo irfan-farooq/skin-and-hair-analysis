@@ -1,0 +1,94 @@
+.progress-content {
+  flex: 1;
+  padding: 40px;
+  background: #f8f6f3;
+  min-height: 100vh;
+}
+
+.progress-header h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.progress-header p {
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.stat-card,
+.history-card,
+.achievement-card {
+  background: white;
+  border-radius: 24px;
+  padding: 30px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.stat-card {
+  min-height: 180px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.stat-card h3 {
+  font-size: 20px;
+  color: #444;
+  margin-bottom: 16px;
+}
+
+.stat-value {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1;
+  color: #2f2f2f;
+}
+
+.score-value {
+  color: #e7c8b6;
+}
+
+.history-card {
+  margin-bottom: 24px;
+}
+
+.history-card h2,
+.achievement-card h2 {
+  margin-bottom: 20px;
+}
+
+.history-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  align-items: center;
+
+  padding: 16px 0;
+
+  border-bottom: 1px solid #eee;
+}
+
+.history-item div:nth-child(2) {
+  text-align: center;
+}
+
+.history-item div:nth-child(3) {
+  text-align: right;
+}
+
+.achievement-card ul {
+  padding-left: 20px;
+}
+
+.achievement-card li {
+  margin-bottom: 12px;
+  line-height: 1.5;
+}

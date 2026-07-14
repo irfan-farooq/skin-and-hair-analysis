@@ -1,0 +1,61 @@
+.lifestyle-card {
+  background: white;
+  border-radius: 24px;
+  padding: 24px;
+}
+
+.lifestyle-card h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.advice-grid {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(280px, 1fr)
+  );
+  gap: 18px;
+}
+
+.advice-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+
+  padding: 18px;
+
+  background: #faf8f6;
+
+  border: 1px solid #ece7e2;
+
+  border-radius: 18px;
+
+  transition: 0.2s;
+}
+
+.advice-item:hover {
+  transform: translateY(-2px);
+}
+
+.advice-icon {
+  font-size: 24px;
+  flex-shrink: 0;
+}
+
+.advice-item p {
+  margin: 0;
+
+  color: #4d5562;
+
+  line-height: 1.6;
+
+  font-size: 15px;
+}
+
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}

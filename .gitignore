@@ -1,0 +1,12 @@
+venv/
+ML/venv/
+data/
+ML/data/
+models/*.h5
+models/*.keras
+__pycache__/
+.DS_Store
+*.pyc
+*.webp
+serviceAccountKey.json
+.env
